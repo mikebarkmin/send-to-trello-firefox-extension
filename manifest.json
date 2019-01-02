@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Send to Trello",
+  "version": "1.0",
+
+  "description": "Add the current tab as a card to trello.",
+
+  "icons": {
+    "48": "icons/taco-48.png",
+    "32": "icons/taco-32.png"
+  },
+
+  "background": {
+    "scripts": ["main.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/taco-32.png",
+    "default_title": "Send to Trello"
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
