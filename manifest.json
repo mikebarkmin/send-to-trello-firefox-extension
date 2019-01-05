@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Send to Trello",
-  "version": "1.0",
+  "version": "1.0.0",
 
   "description": "Add the current tab as a card to trello.",
 
